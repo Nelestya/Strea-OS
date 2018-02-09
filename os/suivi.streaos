@@ -1,0 +1,18 @@
+Est se que l'iso marche?
+NON pas tout a fait, il faut régler le problème avec le live problème de firmware de la carte graphique
+
+Le live marche t'il?
+Non problème de firmware avec la carte graphique
+
+l'installateur marche t'il?
+Oui, mais il n'est pas personnaliser (Acutellement phase de test avec une compilation perso du bootstrap debian)
+
+## Debian Install ##
+Creation de l'iso : not automatised mais sa marche (bug phase de test)
+compilation du debian installer modifié : tester
+
+Automatisation :
+
+  - Copie de templates et initilisation de la config de l'iso(regarder snotra.sh)
+  - copie du dossier dans snotra vers hel (regarder hel.sh)
+  - Debianinstall permet de download la version dev de debian-installer

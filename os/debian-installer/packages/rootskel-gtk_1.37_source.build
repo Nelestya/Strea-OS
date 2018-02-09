@@ -1,0 +1,66 @@
+ dpkg-buildpackage -rfakeroot -us -uc -S
+dpkg-buildpackage: info: paquet source rootskel-gtk
+dpkg-buildpackage: info: version source 1.37
+dpkg-buildpackage: info: distribution source unstable
+dpkg-buildpackage: info: source changé par Christian Perrier <bubulle@debian.org>
+ dpkg-source --before-build rootskel-gtk
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   dh_auto_clean
+	make -j1 clean
+make[1] : on entre dans le répertoire « /home/snotra/Documents/os/debian-installer/packages/rootskel-gtk »
+Making install in src
+make[2] : on entre dans le répertoire « /home/snotra/Documents/os/debian-installer/packages/rootskel-gtk/src »
+Making clean in etc
+make[3] : on entre dans le répertoire « /home/snotra/Documents/os/debian-installer/packages/rootskel-gtk/src/etc »
+Making clean in gtk-2.0
+make[4] : on entre dans le répertoire « /home/snotra/Documents/os/debian-installer/packages/rootskel-gtk/src/etc/gtk-2.0 »
+make[4] : on quitte le répertoire « /home/snotra/Documents/os/debian-installer/packages/rootskel-gtk/src/etc/gtk-2.0 »
+make[3] : on quitte le répertoire « /home/snotra/Documents/os/debian-installer/packages/rootskel-gtk/src/etc »
+Making clean in lib
+make[3] : on entre dans le répertoire « /home/snotra/Documents/os/debian-installer/packages/rootskel-gtk/src/lib »
+Making clean in debian-installer.d
+make[4] : on entre dans le répertoire « /home/snotra/Documents/os/debian-installer/packages/rootskel-gtk/src/lib/debian-installer.d »
+make[4] : on quitte le répertoire « /home/snotra/Documents/os/debian-installer/packages/rootskel-gtk/src/lib/debian-installer.d »
+make[3] : on quitte le répertoire « /home/snotra/Documents/os/debian-installer/packages/rootskel-gtk/src/lib »
+Making clean in usr
+make[3] : on entre dans le répertoire « /home/snotra/Documents/os/debian-installer/packages/rootskel-gtk/src/usr »
+Making clean in bin
+make[4] : on entre dans le répertoire « /home/snotra/Documents/os/debian-installer/packages/rootskel-gtk/src/usr/bin »
+make[4] : on quitte le répertoire « /home/snotra/Documents/os/debian-installer/packages/rootskel-gtk/src/usr/bin »
+Making clean in share
+make[4] : on entre dans le répertoire « /home/snotra/Documents/os/debian-installer/packages/rootskel-gtk/src/usr/share »
+Making clean in graphics
+make[5] : on entre dans le répertoire « /home/snotra/Documents/os/debian-installer/packages/rootskel-gtk/src/usr/share/graphics »
+rm -f logo_debian.png logo_debian_dark.png
+make[5] : on quitte le répertoire « /home/snotra/Documents/os/debian-installer/packages/rootskel-gtk/src/usr/share/graphics »
+Making clean in themes
+make[4] : on quitte le répertoire « /home/snotra/Documents/os/debian-installer/packages/rootskel-gtk/src/usr/share »
+make[3] : on quitte le répertoire « /home/snotra/Documents/os/debian-installer/packages/rootskel-gtk/src/usr »
+make[2] : on quitte le répertoire « /home/snotra/Documents/os/debian-installer/packages/rootskel-gtk/src »
+make[1] : on quitte le répertoire « /home/snotra/Documents/os/debian-installer/packages/rootskel-gtk »
+   dh_clean
+ dpkg-source -b rootskel-gtk
+dpkg-source: info: utilisation du format source « 3.0 (native) »
+dpkg-source: info: construction de rootskel-gtk dans rootskel-gtk_1.37.tar.xz
+dpkg-source: avertissement: information manquante pour le champ de sortie Standards-Version
+dpkg-source: info: construction de rootskel-gtk dans rootskel-gtk_1.37.dsc
+ dpkg-genbuildinfo --build=source
+ dpkg-genchanges --build=source >../rootskel-gtk_1.37_source.changes
+dpkg-genchanges: info: inclusion du code source original dans l'envoi (« upload »)
+ dpkg-source --after-build rootskel-gtk
+dpkg-buildpackage: info: envoi de source uniquement : paquet Debian natif
+Now running lintian...
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile dsc rootskel-gtk_1.37.dsc 0E6F621366AA9D18B95CD870F0FF89ED98EA04A1
+
+ fixup_buildinfo rootskel-gtk_1.37.dsc rootskel-gtk_1.37_source.buildinfo
+ signfile buildinfo rootskel-gtk_1.37_source.buildinfo 0E6F621366AA9D18B95CD870F0FF89ED98EA04A1
+
+ fixup_changes dsc rootskel-gtk_1.37.dsc rootskel-gtk_1.37_source.changes
+ fixup_changes buildinfo rootskel-gtk_1.37_source.buildinfo rootskel-gtk_1.37_source.changes
+ signfile changes rootskel-gtk_1.37_source.changes 0E6F621366AA9D18B95CD870F0FF89ED98EA04A1
+
+Successfully signed dsc, buildinfo, changes files

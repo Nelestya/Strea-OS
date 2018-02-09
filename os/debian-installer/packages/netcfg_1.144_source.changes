@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Tue, 27 Jun 2017 05:56:38 +0200
+Source: netcfg
+Binary: netcfg netcfg-static
+Architecture: source
+Version: 1.144
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Changed-By: Christian Perrier <bubulle@debian.org>
+Description:
+ netcfg     - Configure the network (udeb)
+ netcfg-static - Configure a static network (udeb)
+Changes:
+ netcfg (1.144) unstable; urgency=medium
+ .
+   [ Updated translations ]
+   * Simplified Chinese (zh_CN.po) by Yangfl
+Checksums-Sha1:
+ 375eec6dde3a473a1f84f6e7ce559e657c36bb82 1562 netcfg_1.144.dsc
+ a11e97dccde8c1509149b69d2d049ed0663e8978 391744 netcfg_1.144.tar.xz
+ f28ea6216c9b8e8304453bc2560abb797ce991a1 5170 netcfg_1.144_source.buildinfo
+Checksums-Sha256:
+ 8211403af51a1b8330ff71ae03f35963a584b1e106a344263f4ed09c2fa746ab 1562 netcfg_1.144.dsc
+ bcf2779209d809dc503329dee6b3b9c55e33f6d7a391a4d06f7b8c91a809ba2a 391744 netcfg_1.144.tar.xz
+ b68c5553346ae9e8edc9dba737ed84e184e36f102a3a40159686ea255cfd7cc5 5170 netcfg_1.144_source.buildinfo
+Files:
+ 898e3a99422d4e2ce1ce0f17d4321bc6 1562 debian-installer optional netcfg_1.144.dsc
+ 2fc7cc6f5be01ddecd6458e239b1057f 391744 debian-installer optional netcfg_1.144.tar.xz
+ 85cfd644faae5266eb525d248cd5981c 5170 debian-installer optional netcfg_1.144_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEDm9iE2aqnRi5XNhw8P+J7ZjqBKEFAlmkMc8ACgkQ8P+J7Zjq
+BKG/5gf9FjwSUkrGN9icnshfJJcBzhGSkGNW/xR2Le3Y7tWTHRukkzs8a83FVp/3
+HE0mqkjDNPNykKs2x58Sb12v+cunJQY6/XFbK7gWJg9qLdJ12jBjN3PotqqUf8jL
+LnGL9G//HwZXEdlZXWtEEqnZmPxujK6zggpWbUPhAghdREbkyzt8l4FuUVjbzDqa
+tV7XZGVIZmhp1Nl8MbU++d4ZTfBphONOoGQpLhWyeJRq3aU22xoNpyYPJ0ey2G2B
+uiqcOOyFuVoIbJLud3rY/YkjkMvKghhGpgnE8kgaRNdHJJ0GY9Q/DFeEEjfjS/cK
+g1FXKr7ZLTDLIh+b5Z2NcB50TqZ/fw==
+=xmEK
+-----END PGP SIGNATURE-----

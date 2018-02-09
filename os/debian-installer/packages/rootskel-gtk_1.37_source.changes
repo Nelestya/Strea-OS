@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Tue, 20 Jun 2017 07:55:47 +0200
+Source: rootskel-gtk
+Binary: rootskel-gtk
+Architecture: source
+Version: 1.37
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Changed-By: Christian Perrier <bubulle@debian.org>
+Description:
+ rootskel-gtk - Additions for graphical installs to skeleton root filesystem (deb (udeb)
+Closes: 863952
+Changes:
+ rootskel-gtk (1.37) unstable; urgency=medium
+ .
+   [ Samuel Thibault ]
+   [ Sagar सागर]
+   * Increase font size of mr_IN locale (Closes: #863952).
+Checksums-Sha1:
+ 74ccad8028bb70ceeca50a62a7f58451bc5a2f0a 1329 rootskel-gtk_1.37.dsc
+ a69f2cf8dba65102646213219a0ef1df4a2206d6 18840 rootskel-gtk_1.37.tar.xz
+ 471cad570ec8871f0c0d928fa767005742ae5c46 7982 rootskel-gtk_1.37_source.buildinfo
+Checksums-Sha256:
+ 6798f2f20813203704062e181d3c2dfb42f433fbfa777f0ea202a3de457e1d16 1329 rootskel-gtk_1.37.dsc
+ 2cbc6805d57951e519d441568d807cc9b9a8697b27042759e27a89b420dee693 18840 rootskel-gtk_1.37.tar.xz
+ 31e22dc1b39ef5d1dbf2c09465e424ba2afeb2ce7985bcc4d907ea97a29308a1 7982 rootskel-gtk_1.37_source.buildinfo
+Files:
+ f858f616007315bfbf956b3a89623636 1329 debian-installer optional rootskel-gtk_1.37.dsc
+ 9d6f10d989724b9257408ce0aab81611 18840 debian-installer optional rootskel-gtk_1.37.tar.xz
+ 19186cb396479eb0c16e42a784aff621 7982 debian-installer optional rootskel-gtk_1.37_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEDm9iE2aqnRi5XNhw8P+J7ZjqBKEFAlmkMcsACgkQ8P+J7Zjq
+BKHPbAf+Ob2FwJ83HE74J12kY6wOSVbiu1vXfI40iEnstvN0PyzfEDLMouKErIVV
+9rtEelpLN9z77hWPv2Dh3TkIA3uVV5FM1dYds/ds3rGzWQMIkPgamiKpj4kalcz9
+uRNmZbHxZReiA+3sptulkcRt66pUC4h95k6+da0XcwSkjz3UVir72ofp9xNxwdNN
+KvXVuCVgywyi7FZy62DB8GmOVwcAGJMkKkWTneJobH/AGMtI3W1r4ANq7LEce6JW
+IOjfTtZAYH11ZIOI8/O0cXeaFW710+Z3NpPbBZmPMd8BBsEEp8tJtCVYWdwoMET/
+Fgu/cvKiPnw/3H3EUQATl8pGF+zSGg==
+=LC3X
+-----END PGP SIGNATURE-----

@@ -1,0 +1,8 @@
+<!-- $Id: mips.xml 70563 2017-02-17 19:26:33Z holgerw $ -->
+<!-- original version: 70562 -->
+
+  <sect2 arch="mips;mips64el;mipsel" id="boot-tftp"><title>Zavedení z TFTP</title>
+
+&boot-installer-intro-net.xml;
+ 
+   </sect2>

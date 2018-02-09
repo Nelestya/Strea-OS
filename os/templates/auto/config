@@ -1,0 +1,33 @@
+#!/bin/sh
+
+set -e
+
+lb config noauto \
+  --mode "debian" \
+	--system "live" \
+	--architectures "amd64" \
+	--distribution "stretch" \
+	--archive-areas "main contrib" \
+	--security "true" \
+	--updates "true" \
+	--backports "true" \
+	--binary-images "iso-hybrid" \
+	--apt-indices "true" \
+	--apt-recommends "false" \
+	--apt-secure "true" \
+	--apt-source-archives "true" \
+	--linux-package "linux-image" \
+	--bootloader "syslinux" \
+  --debian-installer-distribution "stretch" \
+	--debian-installer "live" \
+	--debian-installer-gui "true" \
+	--iso-application "streaos" \
+	--iso-volume "streaos" \
+  --bootappend-live "boot=live components locales=fr_FR.UTF-8 keyboard-layouts=fr username=user hostname=streaos autologin" \
+  --mirror-debian-installer "http://localhost/miroir/" \
+  --checksums sha256 \
+	--clean \
+	--debug \
+	--verbose \
+	--source "true" \
+	"${@}"
