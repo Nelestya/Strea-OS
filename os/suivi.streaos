@@ -1,12 +1,3 @@
-Est se que l'iso marche?
-NON pas tout a fait, il faut régler le problème avec le live problème de firmware de la carte graphique
-
-Le live marche t'il?
-Non problème de firmware avec la carte graphique
-
-l'installateur marche t'il?
-Oui, mais il n'est pas personnaliser (Acutellement phase de test avec une compilation perso du bootstrap debian)
-
 ## Debian Install ##
 Creation de l'iso : not automatised mais sa marche (bug phase de test)
 compilation du debian installer modifié : tester
